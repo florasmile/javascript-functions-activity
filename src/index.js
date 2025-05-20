@@ -52,3 +52,7 @@ console.log(pairsWithGivenSum([1, 3, 4, 6], 7));
 setInterval(() => {
   console.log('This prints every second!');
 }, 1000);
+
+setTimeout(() => {
+  console.log('This runs after 2 seconds!');
+}, 2000);
